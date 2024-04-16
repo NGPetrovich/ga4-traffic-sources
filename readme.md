@@ -22,7 +22,7 @@
 ## If you want to make this script working for you perform the following steps:
 
 1. Head inside **ga4_script.py**
-2. Delete the following lines:
+2. Delete the following lines:<br>
    ```"cd step-0",```<br>
    ```"python fake_app_ga4.py",```<br>
    ```"python fake_backend.py",```<br>
