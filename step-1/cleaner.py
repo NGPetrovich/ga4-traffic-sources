@@ -3,7 +3,7 @@ import os
 
 def extract_data_from_date(csv_file, output_file_name):
     # Define the output folder path relative to the current script location
-    output_folder_path = "../step-2"
+    output_folder_path = "../step-3"
     output_file_path = os.path.join(output_folder_path, output_file_name)
 
     # Ensure the output folder exists, create if it does not
@@ -27,4 +27,4 @@ def extract_data_from_date(csv_file, output_file_name):
 
 if __name__ == "__main__":
     input_csv_file = input("Enter input CSV file name: ")
-    extract_data_from_date(input_csv_file, "fake_clean.csv")
+    extract_data_from_date(input_csv_file, "ga4_clean.csv")
