@@ -23,11 +23,11 @@
 
 1. Head inside **ga4_script.py**
 2. Delete the following lines:
-   ∼∼"cd step-0",∼∼
-   ∼∼"python fake_app_ga4.py",∼∼
-   ∼∼"python fake_backend.py",∼∼
-   ∼∼"python fake_channels.py",∼∼
-   ∼∼"python fake_ga4.py",∼∼
+   ```"cd step-0",```
+   ```"python fake_app_ga4.py",```
+   ```"python fake_backend.py",```
+   ```"python fake_channels.py",```
+   ```"python fake_ga4.py",```
 3. Add your data Google Analytics report about website performance to folder **step-1** - CSV format
 4. Add your data Backend report about current month performance to folder **step-2** - EXCEL format
 5. Add your data Google Analytics report about app performance to folder **step-5** - CSV format
