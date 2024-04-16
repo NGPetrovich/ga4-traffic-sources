@@ -23,11 +23,11 @@
 
 1. Head inside **ga4_script.py**
 2. Delete the following lines:
-   \_"cd step-0",
-   \_"python fake_app_ga4.py",
-   \_"python fake_backend.py",
-   \_"python fake_channels.py",
-   \_"python fake_ga4.py",
+   ∼∼"cd step-0",∼∼
+   ∼∼"python fake_app_ga4.py",∼∼
+   ∼∼"python fake_backend.py",∼∼
+   ∼∼"python fake_channels.py",∼∼
+   ∼∼"python fake_ga4.py",∼∼
 3. Add your data Google Analytics report about website performance to folder **step-1** - CSV format
 4. Add your data Backend report about current month performance to folder **step-2** - EXCEL format
 5. Add your data Google Analytics report about app performance to folder **step-5** - CSV format
@@ -37,3 +37,4 @@
 9. Further steps are as above but you need to input your data
 
 ## Here is the image how this report is working:
+![doc_ga4_reporting](https://github.com/NGPetrovich/ga4-traffic-sources/assets/75169515/96e7937e-1708-45f6-ad12-07ef32aecef6)
